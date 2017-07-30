@@ -1,6 +1,6 @@
 #!/bin/bash
 NUM=$(i3-msg -t get_workspaces | sed -e 's/{"num/\n{"num/g' | grep \"focused\":true | sed -e 's/,"/\n/g' | grep num | cut -d: -f 2)
-NAME=$(i3-input -P "Workspace: " | grep output | cut -d" " -f 3)
+NAME=$(i3-input -F nop %s -P "Workspace: " | grep output | cut -d" " -f 3)
 
 if [ -z $NAME ]
 then
