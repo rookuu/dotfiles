@@ -14,3 +14,5 @@ mkdir -p ~/.config/dunst
 ln -f ~/.dotfiles/dunst/config ~/.config/dunst/config
 
 ln -f ~/.dotfiles/xinit/xinitrc ~/.xinitrc
+
+ln -f ~/.dotfiles/compton/compton.conf ~/.config/compton.conf
