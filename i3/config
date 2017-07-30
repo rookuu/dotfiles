@@ -99,7 +99,7 @@ bindsym $mod+8 workspace number 8
 bindsym $mod+9 workspace number 9
 bindsym $mod+0 workspace number 10
 
-bindsym $mod+x exec /usr/share/i3/rename-workspace
+bindsym $mod+x exec /home/rookuu/.dotfiles/i3/rename-workspace
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number  1
