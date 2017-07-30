@@ -162,3 +162,4 @@ new_window pixel 3
 gaps inner 10
 exec compton -b
 exec --no-startup-id nitrogen --restore
+exec xrdb ~/.Xresources
