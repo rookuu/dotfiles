@@ -8,7 +8,7 @@ ln -f ~/.dotfiles/vim/vimrc ~/.vimrc
 
 ln -f ~/.dotfiles/zsh/zshrc ~/.zshrc
 
-ln -f ~/.dotfiles/rofi/Xresources ~/.Xresources
+ln -f ~/.dotfiles/xresources/Xresources ~/.Xresources
 
 mkdir -p ~/.config/dunst
 ln -f ~/.dotfiles/dunst/config ~/.config/dunst/config
