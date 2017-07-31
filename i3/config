@@ -161,5 +161,6 @@ focus_follows_mouse no
 new_window pixel 3
 gaps inner 10
 exec compton -b
+exec --no-startup-id nitrogen --set-zoom-fill ~/.dotfiles/wallpapers/1920x1080.jpg
 exec --no-startup-id nitrogen --restore
 exec xrdb ~/.Xresources

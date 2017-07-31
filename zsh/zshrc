@@ -84,7 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias c=clear 
-alias l=ls -l
+alias l="ls -l"
+alias lock="~/.dotfiles/i3/lock"
 
 echo ""
 neofetch
